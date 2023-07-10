@@ -1,5 +1,21 @@
 yay/*
-Code/*
 dconf/*
 gtk-3.0/*
 pulse/*
+Code/User/History
+Code/d*
+Code/D*
+Code/C*
+Code/G*
+Code/l*
+Code/S*
+Code/WebStorage/*
+Code/Local Storage/*
+Code/code.lock
+Code/machineid
+Code/Network Persistent State
+Code/Preferences
+Code/TransportSecurity
+Code/User/globalStorage/*
+Code/User/sync/*
+Code/User/workspaceStorage/*
