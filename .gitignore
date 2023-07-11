@@ -21,3 +21,4 @@ Code/User/sync/*
 Code/User/workspaceStorage/*
 Code/.org.chromium*
 qtile/__pycache__/*
+neofetch/*
