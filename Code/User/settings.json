@@ -2,6 +2,6 @@
     "window.zoomLevel": 2,
     "workbench.startupEditor": "none",
     "git.autofetch": true,
-    "terminal.integrated.fontFamily": "'Source Code Pro', monospace",
-    "editor.fontFamily": "'Source Code Pro','Droid Sans Mono', 'monospace', monospace"
+    "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font', monospace",
+    "editor.fontFamily": "'JetBrainsMono Nerd Font','Droid Sans Mono', 'monospace', monospace"
 }

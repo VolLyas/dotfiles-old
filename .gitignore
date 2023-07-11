@@ -19,3 +19,5 @@ Code/TransportSecurity
 Code/User/globalStorage/*
 Code/User/sync/*
 Code/User/workspaceStorage/*
+Code/.org.chromium*
+qtile/__pycache__/*
