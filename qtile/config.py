@@ -29,12 +29,15 @@ from libqtile.config import Click, Drag, Group, Key, Match, Screen
 from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
 
+# Some vars
 mod = "mod4"
 left = "left"
 right = "right"
 up = "up"
 down = "down"
 terminal = guess_terminal()
+browser = "firefox"
+
 
 keys = [
     # A list of available commands that can be bound to keys can be found
@@ -76,6 +79,8 @@ keys = [
     Key([mod, "shift"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
     Key([mod], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
     Key([mod], "f", lazy.window.toggle_floating()),
+    Key([mod], "w", lazy.spawn(browser), desc="Launch browser"),
+    Key([mod], "e", lazy.spawn("{} -e ranger".format(terminal)), desc="Launch "),
 ]
 
 groups = [Group(i) for i in "123456789"]
